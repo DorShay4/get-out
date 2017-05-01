@@ -1,0 +1,15 @@
+
+<div class="container">
+  <div class="row place-list hover" *ngFor="let place of nearbyPlaces">
+    <div class="col-xs-4 col-md-3">
+<!--      <img class="img-responsive center-block img-rounded" [src]="place.image" >-->
+
+      <img class="img-responsive img-rounded" [src]="place.image" >
+    </div>
+    <div class="col-xs-8 col-md-7" dir="rtl">
+      <p>{{place.name}}</p>
+      <p>{{place.title}}</p>
+      <p>text...</p>
+    </div>
+  </div>
+</div>
